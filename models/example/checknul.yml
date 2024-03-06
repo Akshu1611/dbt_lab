@@ -1,0 +1,7 @@
+version: 2
+models:
+  - name: customer
+    columns:
+      - name: LastName
+        tests:
+          - checkempty_string

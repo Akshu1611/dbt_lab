@@ -1,0 +1,10 @@
+sources:
+  - name: first_src
+    database: raw
+    schema: dbt_schema
+     
+    tables:
+      - name: Customers_dett
+      - name: Products_det
+      - name: cust
+

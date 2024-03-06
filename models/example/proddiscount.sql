@@ -1,0 +1,1 @@
+select {{discountmacro('Price')}} from {{source('first_src','Products_det')}}
